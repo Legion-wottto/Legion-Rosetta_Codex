@@ -1,0 +1,37 @@
+{
+  "runtimes": [
+    {
+      "name": "codex-app-server-ws",
+      "cwd": ".",
+      "command": [
+        "./scripts/run-codex-app-server-ws.sh"
+      ],
+      "env": {
+        "CODEX_APP_SERVER_LISTEN": "{entry_url}"
+      },
+      "notes": "Explicit websocket app-server host for a remote bridge client"
+    },
+    {
+      "name": "codex-remote-control",
+      "cwd": ".",
+      "command": [
+        "./scripts/run-codex-remote-control.sh"
+      ],
+      "env": {},
+      "notes": "Thin wrapper around codex remote-control for parity testing with Codex headless remote mode"
+    },
+    {
+      "name": "codex-remote-control-localhost",
+      "cwd": ".",
+      "command": [
+        "./scripts/run-codex-remote-control-localhost.sh"
+      ],
+      "env": {
+        "CODEX_RC_EMULATOR_HOST": "127.0.0.1",
+        "CODEX_RC_EMULATOR_PORT": "8787",
+        "CODEX_RC_EMULATOR_BASE_PATH": "/backend-api"
+      },
+      "notes": "Points codex remote-control at a localhost emulator backend instead of chatgpt.com"
+    }
+  ]
+}

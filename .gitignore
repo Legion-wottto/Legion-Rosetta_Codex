@@ -1,0 +1,4 @@
+Executable/Finished Item/state/logs/*.log
+Executable/Finished Item/state/*.json
+!Executable/Finished Item/state/.gitkeep
+!Executable/Finished Item/state/logs/.gitkeep

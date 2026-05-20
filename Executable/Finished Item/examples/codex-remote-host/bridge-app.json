@@ -1,0 +1,15 @@
+{
+  "app_id": "org.example.codex-remote-host",
+  "app_name": "Codex Remote Host",
+  "preferred_runtime": "codex-app-server-ws",
+  "entry_url": "ws://127.0.0.1:8765",
+  "window": {
+    "title": "Codex Remote Host",
+    "width": 1360,
+    "height": 900
+  },
+  "bridge": {
+    "owner": "Runtime Host",
+    "version": 1
+  }
+}

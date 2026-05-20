@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rosetta Codex"
+  short_description: "Launch and inspect the Codex remote host"
+  default_prompt: "Use $rosetta-codex to launch the Codex app-server host in the background."

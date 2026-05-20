@@ -1,0 +1,46 @@
+Legion: Rosetta Codex — Release Manifest
+=========================================
+Motto: Alii dubitant, nos agimus
+Author: Ryan Watson (Legion: Wottto)
+Key: 4B5E71E28604924FA8998C14F2E06048C27644F6
+Date: 2026-05-20
+
+--- Source Files ---
+
+6e1efed30a528b53e41c2c3194135e5d80f01f17ddb02265ab99d5ea5238020f  5916.jpg
+371768615ef598488ddd1be1ca861124b8456c03f61ef96a4889723de50c2d33  5917.jpg
+782f2b383284be3d1d7a238914dc394ab0886ceac054ff385dbc9530cfb2e274  5938.jpg
+b7f8263d873bf2f710f29417385a27097534c3efd7477a22e17e42d5e80054bf  CONTRIBUTING.md
+5ec4da7c2eee8ed01a38b8ec92b698619f4cb9c24cea5873117bf69cdecab055  Documentation/Reference.md
+39ba7ddcd684f4830a45d7ed1475172d4bdaf61fcddf60aae6d4a47ffcccc157  LICENSE
+a18d11aa2df9e357b917a5051518ae0352fdb6654325c7798f72d71fee70661e  NOTICE
+139138c675865256a9c892524fce7f2c5181d081cf25bedea0d262636d54d765  README.md
+4755d4e9cca5e4bdc680fa25b4e908b7495f75f9884e63c67dea252cc7690ca1  SECURITY.md
+84624fd437304869713fda4c4e83e626d3ec55fb9e7a77fcef8c2167d8c39386  logo.png
+dce749362290640346e65bc15e3997f7a1ef6b204639737c54837a5230b622e1  Executable/Finished Item/codex_bridge_client.mjs
+dfdb495a6604f10e330e55093e95104339b2a2ce842d7262ecc22e8a077323f9  Executable/Finished Item/codex_remote_control_emulator.mjs
+0d2f56781f0b0b2f361c6af59ee4a58549778e7a3e0c7ea9e13afa1fca205fb0  Executable/Finished Item/codex_remote_control_inspect.py
+a59fc62bc860b33c5e5869b17ee8b3c2ce2dcea846b4170c1ee87991da2b329b  Executable/Finished Item/examples/codex-remote-host/bridge-app.json
+b3aa8d0679dcc7900aa17ba2ad5bec9fc7a99ebc940db058dda6d24d17e676fb  Executable/Finished Item/runtime_host.py
+657b514d3cd6e486afba57877d6d258abaf80956edef2192348e5a0ede2c492d  Executable/Finished Item/runtimes.json
+ae04ee1dd307395d1e0c2d18116b2206bfdad4f16da72554f9d558756753739a  Executable/Finished Item/scripts/run-codex-app-server-ws.sh
+9d5c128799ed821f691a756ab79a469ef3ed46418034db6b86b00643096323f1  Executable/Finished Item/scripts/run-codex-bridge-client.sh
+9eb78c9d7c1db6ff9c5c7fbafb6d14966f08dbd1b06a9994458f2c1adb5611fb  Executable/Finished Item/scripts/run-codex-remote-control-emulator.sh
+ec0c5f472d25f8ad21a0b6b129670290d133f2e6771f8a0f27cef2fca337d378  Executable/Finished Item/scripts/run-codex-remote-control-inspect.sh
+f858144d6a323cfb7aea4d62672904d1a6f936e3a080f636ac84ce820dec87a9  Executable/Finished Item/scripts/run-codex-remote-control-localhost.sh
+b1776b2901f4d4349512b261007b8b9ef23975e92b69a7bb5a595d61acfffd94  Executable/Finished Item/scripts/run-codex-remote-control.sh
+a59fc62bc860b33c5e5869b17ee8b3c2ce2dcea846b4170c1ee87991da2b329b  Executable/Finished Item/templates/bridge-app.template.json
+8c54088e723dec4ba9849a5bd3c21cb75425f5ad502cded5c51f30bc860bb990  skills/rosetta-codex/SKILL.md
+bb90b573fdd5aedc7752d2d32ecb661fbd1df978811847aeb0272b83e43e9276  skills/rosetta-codex/agents/openai.yaml
+
+--- Distribution Archive ---
+
+1070129322faabc471c6335a132dcf9de13cf064f1c2a97dac09786f21cf5439  Codex Remote Host Toolkit.zip
+
+--- Verification ---
+
+To verify source files:
+  sha256sum -c MANIFEST.sha256 --ignore-missing
+
+To verify the signature:
+  gpg --verify MANIFEST.sha256.asc MANIFEST.sha256
