@@ -1,10 +1,4 @@
-<div align="center">
-  <img src="logo.png" alt="Legion: Rosetta Codex" width="320"/>
-</div>
-
 # Legion: Rosetta Codex
-
-*Salve, Mundus. Adsum. Initium est.*
 
 The bridge between remote access through the Android ChatGPT app and your Linux Codex CLI runtime.
 
@@ -17,6 +11,12 @@ This is the first project I have ever created with the aid of Codex, GPT, and Cl
 Feedback is greatly appreciated. Hope you enjoy!
 
 **Legion: Wottto**
+
+*Salve, Mundus. Adsum. Initium est.*
+
+<div align="center">
+  <img src="logo.png" alt="Legion: Rosetta Codex" width="320"/>
+</div>
 
 ---
 
